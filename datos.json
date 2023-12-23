@@ -1,0 +1,25 @@
+{
+    "datosPrestamo": [
+    {
+        "monto": 10000,
+        "interes": 5,
+        "años": 3,
+        "pagoMensual": 304.16,
+        "montoTotal": 10979.47
+    },
+    {
+        "monto": 20000,
+        "interes": 7,
+        "años": 5,
+        "pagoMensual": 396.55,
+        "montoTotal": 23792.84
+    },
+    {
+        "monto": 15000,
+        "interes": 6,
+        "años": 2,
+        "pagoMensual": 675.36,
+        "montoTotal": 16208.68
+    }
+    ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Crédito</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('./images/_6c41a434-9f8b-46a0-9f35-9095c06c4466.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Arial', sans-serif; 
+            color: #fff; 
+        }
+        h1 {
+            text-align: center;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simulador de Crédito</h1>
+
+    <form id="credit-form">
+        <label for="monto" style="color: red;">Monto del préstamo:</label>
+        <input type="number" id="monto" required>
+        
+        <label for="interes" style="color: red;">Tasa de interés (%):</label>
+        <input type="number" id="interes" required>
+        
+        <label for="años" style="color: red;">Plazo (años):</label>
+        <input type="number" id="años" required>
+        
+        <button type="submit">Calcular</button>
+        <button type="button" onclick="limpiarDatos()">Limpiar Datos</button>
+    </form>
+
+    <div id="output"></div>
+
+    <div id="cotizaciones" style="color: red;">Contenido del div</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+    <script src="ajax-handler.js"></script>
+</body>
+</html>
